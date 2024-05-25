@@ -8,6 +8,7 @@ import Shawn from "@/pages/Shawn";
 import Adarsh from "@/pages/Adarsh";
 import Advait from "@/pages/Advait";
 import Mohit from "@/pages/Mohit";
+import Hardik from "@/pages/Hardik";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,9 @@ const router = createBrowserRouter([
             }, {
                 path: "/mohit",
                 element: <Mohit />
+            }, {
+                path: "/hardik",
+                element: <Hardik />
             }
         ]
     }
