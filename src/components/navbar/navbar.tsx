@@ -1,7 +1,10 @@
 export function Navbar() {
     return (
         <>
-            <h1>Navbar</h1>
+            <div className="mb-10">
+                <h1 className="p-2">Navbar</h1>
+                <hr />
+            </div>
         </>
     );
 }

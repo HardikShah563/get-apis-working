@@ -58,6 +58,7 @@ export default function ApiCall() {
 
     return (
         <>
+            <h1 className="text-xl font-bold my-2">Languages Data</h1>
             {data ? JSON.stringify(data) : <>Loading...</>}
         </>
     );
